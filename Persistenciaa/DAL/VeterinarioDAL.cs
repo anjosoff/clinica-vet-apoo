@@ -18,7 +18,7 @@ namespace Persistencia.DAL
         }
         public Veterinario ObterVeterinarioPorId(long id)
         {
-            return context.Veterinarios.Where(f => f.VeteriarioId == id).Include("Consultas.Veterinario").First();
+            return context.Veterinarios.Where(f => f.Id == id).Include("Consultas.Veterinario").First();
         }
         public void GravarVeterinario(Veterinario veterinario)
         {

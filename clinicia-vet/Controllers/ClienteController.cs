@@ -1,10 +1,8 @@
 ﻿using System.Web.Mvc;
-using Servico;
+using clinica_vet.Servico;
 using Modelo;
 using System.Net;
-using Modelo;
 using Persistencia.Contexts;
-using Servico;
 
 namespace clinicia_vet.Controllers
 {

@@ -6,7 +6,7 @@ using Modelo;
 using Persistencia.DAL;
 
 namespace clinica_vet.Servico
-{ 
+{
     public class VeterinarioServico
     {
         private VeterinarioDAL veterinarioDAL = new VeterinarioDAL();

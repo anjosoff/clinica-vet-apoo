@@ -1,13 +1,13 @@
-﻿using Modelo;
-using Persistencia.DAL;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
+using Modelo;
+using Persistencia.DAL;
 
 namespace clinica_vet.Servico
-    class PetServico
+{
+    public class PetServico
     {
         private PetDAL petDAL = new PetDAL();
         public IQueryable<Pet> ObterPetsClassificadosPorNome()

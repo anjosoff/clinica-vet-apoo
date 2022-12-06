@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel;
@@ -27,3 +26,4 @@ namespace Modelo.ViewModels
 
         public Veterinario Veterinario { get; set; }
     }
+}

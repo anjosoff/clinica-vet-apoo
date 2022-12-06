@@ -1,19 +1,23 @@
-﻿using Modelo;
-using Persistencia;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Modelo;
+using Persistencia.DAL;
 
 namespace clinica_vet.Servico
 {
-    class ExameServico
+    public class ExameServico
     {
         private ExameDAL exameDAL = new ExameDAL();
         public IQueryable<Exame> ObterExamesClassificadosPorDesc()
         {
             return exameDAL.ObterExamesClassificadosPorDesc();
+        }
+        public IQueryable<Exame> TodosExamesBD()
+        {
+            return exameDAL.TodosExamesBD();
         }
         public Exame ObterExamePorId(long id)
         {

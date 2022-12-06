@@ -1,14 +1,14 @@
-﻿using Modelo;
-using Persistencia;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Modelo;
+using Persistencia.DAL;
 
 namespace clinica_vet.Servico
 {
-    class EspecieServico
+    public class EspecieServico
     {
         private EspecieDAL especieDAL = new EspecieDAL();
         public IQueryable<Especie> ObterEspeciesClassificadasPorNome()
