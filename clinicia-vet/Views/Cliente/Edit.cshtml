@@ -1,0 +1,71 @@
+﻿@model Modelo.ViewModels.ConsultaViewModel
+
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm("Edit", "Consulta", new { id = "formEdit", name = "formEdit" }))
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Consulta</legend>
+
+        @Html.HiddenFor(x => x.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.data_hora, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.data_hora, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.data_hora, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Sintomas, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Sintomas, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Sintomas, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.PetId, htmlAttributes:
+                 new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("PetId", null, htmlAttributes:
+                     new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.PetId, "",
+                     new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.VeterinarioId, htmlAttributes:
+                 new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("VeterinarioId", null, htmlAttributes:
+                     new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.VeterinarioId, "",
+                     new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @* Render the check boxes using the Editor Template *@
+        @Html.EditorFor(x => x.Exames)
+
+        <p>
+            <input type="submit" value="Save" class="btn btn-warning" />
+        </p>
+    </fieldset>
+}
+
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
