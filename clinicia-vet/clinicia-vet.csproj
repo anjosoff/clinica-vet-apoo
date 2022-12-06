@@ -100,10 +100,21 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
+    <Compile Include="Controllers\ConsultaController.cs" />
+    <Compile Include="Controllers\EspecieController.cs" />
+    <Compile Include="Controllers\ExameController.cs" />
+    <Compile Include="Controllers\PetController.cs" />
+    <Compile Include="Controllers\VeterinarioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Servico\ClienteServico.cs" />
+    <Compile Include="Servico\ConsultaServico.cs" />
+    <Compile Include="Servico\EspecieServico.cs" />
+    <Compile Include="Servico\ExameServico.cs" />
+    <Compile Include="Servico\PetServico.cs" />
+    <Compile Include="Servico\VeterinarioServico.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -119,6 +130,21 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Cliente\" />
+    <Folder Include="Views\Consulta\" />
+    <Folder Include="Views\Especie\" />
+    <Folder Include="Views\Exame\" />
+    <Folder Include="Views\Pet\" />
+    <Folder Include="Views\Veterinario\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modelo\Modelo.csproj">
+      <Project>{93214ff4-e151-41d5-8e39-c2d2f8c4ef64}</Project>
+      <Name>Modelo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Persistenciaa\Persistenciaa.csproj">
+      <Project>{89601da3-0de3-4b64-a75e-77284593f282}</Project>
+      <Name>Persistenciaa</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

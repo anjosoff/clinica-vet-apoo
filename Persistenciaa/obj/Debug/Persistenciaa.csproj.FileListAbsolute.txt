@@ -1,0 +1,2 @@
+C:\Users\anjos\source\repos\clinicia-vet\Persistenciaa\obj\Debug\Persistenciaa.csproj.AssemblyReference.cache
+C:\Users\anjos\source\repos\clinicia-vet\Persistenciaa\obj\Debug\Persistenciaa.csproj.CoreCompileInputs.cache

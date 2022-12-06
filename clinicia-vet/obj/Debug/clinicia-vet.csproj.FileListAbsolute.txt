@@ -1,0 +1,2 @@
+C:\Users\anjos\source\repos\clinicia-vet\clinicia-vet\obj\Debug\clinicia-vet.csproj.AssemblyReference.cache
+C:\Users\anjos\source\repos\clinicia-vet\clinicia-vet\obj\Debug\clinicia-vet.csproj.CoreCompileInputs.cache

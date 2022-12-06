@@ -48,9 +48,14 @@
     <Compile Include="Pet.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\ConsultaViewModel.cs" />
+    <Compile Include="ViewModel\ExameViewModel.cs" />
+    <Compile Include="ViewModel\ExameVinculado.cs" />
+    <Compile Include="ViewModel\ViewModelHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Veterinario.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

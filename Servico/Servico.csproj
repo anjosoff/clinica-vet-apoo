@@ -55,9 +55,9 @@
       <Project>{93214ff4-e151-41d5-8e39-c2d2f8c4ef64}</Project>
       <Name>Modelo</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Persistencia\Persistencia.csproj">
-      <Project>{be74127f-a3cc-4646-a769-64fa14356521}</Project>
-      <Name>Persistencia</Name>
+    <ProjectReference Include="..\Persistenciaa\Persistenciaa.csproj">
+      <Project>{89601da3-0de3-4b64-a75e-77284593f282}</Project>
+      <Name>Persistenciaa</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
