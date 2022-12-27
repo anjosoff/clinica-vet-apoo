@@ -12,3 +12,17 @@ C:\Users\anjos\source\repos\clinicia-vet\Persistenciaa\bin\Debug\EntityFramework
 C:\Users\anjos\source\repos\clinicia-vet\Persistenciaa\obj\Debug\Persistenciaa.csproj.CopyComplete
 C:\Users\anjos\source\repos\clinicia-vet\Persistenciaa\obj\Debug\Persistenciaa.dll
 C:\Users\anjos\source\repos\clinicia-vet\Persistenciaa\obj\Debug\Persistenciaa.pdb
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\bin\Debug\Persistenciaa.dll.config
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\bin\Debug\Persistenciaa.dll
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\bin\Debug\Persistenciaa.pdb
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\bin\Debug\EntityFramework.dll
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\bin\Debug\Modelo.dll
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\bin\Debug\Modelo.pdb
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\bin\Debug\EntityFramework.xml
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\obj\Debug\Persistenciaa.csproj.AssemblyReference.cache
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\obj\Debug\Persistenciaa.csproj.CoreCompileInputs.cache
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\obj\Debug\Persistenciaa.csproj.CopyComplete
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\obj\Debug\Persistenciaa.dll
+C:\Users\20201011110042\Source\Repos\clinica-vet-apoo\Persistenciaa\obj\Debug\Persistenciaa.pdb
